@@ -1,0 +1,24 @@
+1. tai kho remote ve local:
+git clone urrl
+
+2. chung ta se lam viec local:
+tai moi 1 file trên working directory
+
+-chuyen trang thái thưu mục:
+ git status
+
+ -qun li phiên bản:
+ git add index.html
+ git add .
+ => tôi se bao vs ban là ban quan lí giúp tôi 
+ git commit -m "toi them moi index.html
+ =>chinh thuc ki ten xac nhan vs quan li giup toi
+ =>luu vao database
+
+ git push 
+     day len kho remote;
+git pull
+     lay về
+
+     
+     file:///C:/Program%20Files/Git/ReleaseNotes.html     

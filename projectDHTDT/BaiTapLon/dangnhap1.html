@@ -12,8 +12,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
+        *{
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
         body{
-            height: 100%;
+          font-size:16px;
+          
         }
     .dau{
         
@@ -35,7 +41,11 @@
         font-weight: bold;
         height:0.4rem;
     }
-   
+    .phai{
+        text-align: right;
+        font-size: 2rem;
+    }
+    
     
     .container-fluid{
        margin-block-end:200px;
@@ -57,7 +67,7 @@
        
        background-color:rgb(65, 65, 228);
        color:white;
-       display: block;
+       
        transition:all 0.3s;
       
    }
@@ -74,43 +84,51 @@
    .moidung{
        padding: 10px;
    }
-   .row{
-       margin-top: 10rem;
+   .bt{
+       text-align: center;
    }
     </style>  
 </head>
   <body>
       <div class="dau">
-          <a href=""><img class="img1" src="image.png" alt=""></a> <img class="img" src="banner.png" alt="">
+          <a href=""><img class="img1" src="../BaiTapLon/images/image.png" alt=""></a> <img class="img" src="../BaiTapLon/images/banner.png" alt="">
       </div>
       <hr>
-      
+      <div class="phai">
+            <p>
+                    <a class="btn btn-primary btn-large" href="#">thích 2,9k</a>
+                    <a class="btn btn-primary btn-large" href="#">chia sẻ</a>
+                </p>
+               
+      </div>
       <div class="giua">
             <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="jumbotron">
-                                    <h2>Đăng nhập | Login</h2>
+                                    <h2>Đăng nhập</h2>
                                     <form role="form jumbotron">
                                         
                                             <div class="form-group">
                                                  
                                                 <label  for="exampleInputEmail1">
-                                                    Mã học viên | Student ID
+                                                    MSSV
                                                 </label>
                                                 <input type="email" class="form-control" id="exampleInputEmail1" />
                                             </div>
                                             <div class="form-group">
                                                  
                                                 <label for="exampleInputPassword1">
-                                                    Mật khẩu | Password
+                                                    Mật khẩu
                                                 </label>
                                                 <input type="password" class="form-control" id="exampleInputPassword1" />
                                             </div>
                                             <div  class="bt">
+                                                <div>
                                                     <button type="button" class="btn-dangnhap btnn-secondary btn-lg">
-                                                           Login
-                                                        </button>
+                                                            Đăng nhập
+                                                    </button>
+                                                </div>
                                             </div>
                                            
                                         </form>   
@@ -120,9 +138,9 @@
                     </div>
                 </div>
       </div>
-      <div class="giua">
+      <div class="footer-DN">
           <div class="cuoi">
-              <p class="col-md-12 moidung">
+              <p class=" moidung">
                 ©2013 Đại học Tôn Đức Thắng <br>
               Ứng dụng được phát triển bởi TDT Software Team
             

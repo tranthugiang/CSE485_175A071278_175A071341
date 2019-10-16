@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+}
+/*css tiêu đề trái*/
+.container-tintuc,.container-sukien,.container-cauhoi{
+    margin-bottom: 4rem;
+}
+.container-title {
+    background-color: rgb(247, 62, 62);
+}
+
+.MenuLeft .title-left li a {
+    color: white;
+    font-weight: 450;
+}
+
+.div-title {
+    color: white;
+    height: 2.5rem;
+}
+
+.MenuLeft .title-left {
+    position: relative;
+}
+
+.MenuLeft .title-left li {
+    list-style-type: none;
+    display: inline-table;
+    height: 2rem;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+}
+
+.MenuLeft .title-left li .DanhSachTruong {
+    display: none;
+    width: 300px;
+    background-color: white;
+    z-index: 10;
+}
+
+.MenuLeft .title-left li .DanhSachTruong a {
+    color: black;
+}
+
+.MenuLeft .title-left li .DanhSachTruong a:hover {
+    color: red;
+}
+
+.MenuLeft .title-left li .DanhSachKhoa {
+    z-index: 10;
+    display: none;
+    width: 400px;
+    background-color: white;
+}
+
+.MenuLeft .title-left li .DanhSachKhoa a {
+    color: black;
+}
+
+.MenuLeft .title-left li .DanhSachKhoa a:hover {
+    color: red;
+}
+
+.MenuLeft .title-left li .DanhSachVien {
+    display: none;
+    width: 400px;
+    background-color: white;
+    z-index: 10;
+}
+
+.MenuLeft .title-left li .DanhSachVien a {
+    color: black;
+}
+
+.MenuLeft .title-left li .DanhSachVien a:hover {
+    color: red;
+}
+
+.MenuLeft .title-left li .DanhSachTrungTam {
+    display: none;
+    width: 400px;
+    background-color: white;
+    z-index: 10;
+}
+
+.MenuLeft .title-left li .DanhSachTrungTam a {
+    color: black;
+}
+
+.MenuLeft .title-left li .DanhSachTrungTam a:hover {
+    color: red;
+}
+
+.MenuLeft .title-left li:hover .DanhSachTruong {
+    display: block;
+    position: absolute;
+}
+
+.MenuLeft .title-left li:hover .DanhSachKhoa {
+    display: block;
+    position: absolute;
+}
+
+.MenuLeft .title-left li:hover .DanhSachVien {
+    display: block;
+    position: absolute;
+}
+
+.MenuLeft .title-left li:hover .DanhSachTrungTam {
+    display: block;
+    position: absolute;
+}
+
+/*css tiêu đề trái*/
+
+/*css tiêu đề phải*/
+
+.title-right {
+    float: right;
+}
+
+.title-right li {
+    list-style-type: none;
+    display: inline-table;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.title-right li a {
+    color: white;
+    font-weight: 450;
+}
+
+/*css tiêu đề phải*/
+
+/*css img header*/
+
+.container-imgtitle {
+    background-color: rgb(253, 227, 179);
+}
+
+.thechua2anh {
+    position: relative;
+    z-index: 5;
+}
+
+.thechua2anh .container-img:before {
+    content: "";
+    position: absolute;
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    width: 98%;
+    height: 1.5px;
+    background-color: rgb(224, 57, 57);
+    text-align: center;
+    bottom: 0px;
+}
+
+.img-left img {
+    width: 340px;
+    height: 61.88px;
+}
+
+.img-right img {
+    width: 380px;
+    height: 92px;
+    float: right;
+}
+
+/*css img header*/

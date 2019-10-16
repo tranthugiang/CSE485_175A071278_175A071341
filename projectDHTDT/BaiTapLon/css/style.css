@@ -176,7 +176,6 @@ body {
 }
 
 /*css img header*/
-
 /*css slideshow*/
 .home-slideshow{
     padding-left: 0;
@@ -709,7 +708,6 @@ body {
     font-size:3rem;
 }
 /*css thông tin các khoa*/
-
 /*css footer*/
 
 footer {
@@ -768,8 +766,6 @@ footer {
 }
 
 /*css footer*/
-
-
 .carousel-fade .carousel-inner .item {
     -webkit-transition-property: opacity;
     transition-property: opacity;

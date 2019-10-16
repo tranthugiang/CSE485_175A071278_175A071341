@@ -12,14 +12,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
-        *{
-            box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-        }
         body{
-          font-size:16px;
-          
+            height: 100%;
         }
     .dau{
         
@@ -41,11 +35,7 @@
         font-weight: bold;
         height:0.4rem;
     }
-    .phai{
-        text-align: right;
-        font-size: 2rem;
-    }
-    
+   
     
     .container-fluid{
        margin-block-end:200px;
@@ -67,7 +57,7 @@
        
        background-color:rgb(65, 65, 228);
        color:white;
-       
+       display: block;
        transition:all 0.3s;
       
    }
@@ -84,51 +74,43 @@
    .moidung{
        padding: 10px;
    }
-   .bt{
-       text-align: center;
+   .row{
+       margin-top: 10rem;
    }
     </style>  
 </head>
   <body>
       <div class="dau">
-          <a href=""><img class="img1" src="image.png" alt=""></a> <img class="img" src="banner.png" alt="">
+          <a href=""><img class="img1" src="../BaiTapLon/images/image.png" alt=""></a> <img class="img" src="../BaiTapLon/images/banner.png" alt="">
       </div>
       <hr>
-      <div class="phai">
-            <p>
-                    <a class="btn btn-primary btn-large" href="#">thích 2,9k</a>
-                    <a class="btn btn-primary btn-large" href="#">chia sẻ</a>
-                </p>
-               
-      </div>
+      
       <div class="giua">
             <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="jumbotron">
-                                    <h2>Đăng nhập</h2>
-                                    <form role="form jumbotron" action="checklogin.php" method="POST">
+                                    <h2>Đăng nhập | Login</h2>
+                                    <form role="form jumbotron">
                                         
                                             <div class="form-group">
                                                  
                                                 <label  for="exampleInputEmail1">
-                                                    MSSV
+                                                    Mã học viên | Student ID
                                                 </label>
-                                                <input type="text" class="form-control" placeholder="Nhập MSSV" name="txtMSSV" id="exampleInputEmail1" />
+                                                <input type="email" class="form-control" id="exampleInputEmail1" />
                                             </div>
                                             <div class="form-group">
                                                  
                                                 <label for="exampleInputPassword1">
-                                                    Mật khẩu
+                                                    Mật khẩu | Password
                                                 </label>
-                                                <input type="password" name="txtPass" class="form-control" id="exampleInputPassword1" />
+                                                <input type="password" class="form-control" id="exampleInputPassword1" />
                                             </div>
                                             <div  class="bt">
-                                                <div>
-                                                    <button type="submit" class="btn-dangnhap btnn-secondary btn-lg" name="btn">
-                                                        Đăng nhập
-                                                    </button>
-                                                </div>
+                                                    <button type="button" class="btn-dangnhap btnn-secondary btn-lg">
+                                                           Login
+                                                        </button>
                                             </div>
                                            
                                         </form>   
@@ -138,9 +120,9 @@
                     </div>
                 </div>
       </div>
-      <div class="footer-DN">
+      <div class="giua">
           <div class="cuoi">
-              <p class=" moidung">
+              <p class="col-md-12 moidung">
                 ©2013 Đại học Tôn Đức Thắng <br>
               Ứng dụng được phát triển bởi TDT Software Team
             

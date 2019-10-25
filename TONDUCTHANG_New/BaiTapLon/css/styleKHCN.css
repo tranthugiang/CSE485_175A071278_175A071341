@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-size:16px;
+    font-family: "Roboto Slab", serif;
+}
+@media(max-width:768px){
+    .col-md-4,.col-md-4{
+        margin-top:2rem;
+    }
+}
+.container-TD,.container-LK,.container-KHCN{
+    margin-top:3rem;
+}
+/* khoa học công nghệ*/
+.title-KHCN{
+    color:#0067ac;
+    text-align:center;
+}
+.title-KHCN  h2{
+    font-size:25px;
+    font-weight: bold;
+}
+.a-chitiet{
+    color:red;
+    font-weight:bold;
+}
+.a-chitiet:hover{
+    color:green;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/* khoa học công nghệ*/
+
+/* Liên kết*/
+.LienKet{
+    background-color:rgb(241, 238, 238);
+    padding-top:2rem;
+    padding-right:5rem;
+    padding-bottom:2.5rem;
+}
+.bottom-LienKet{
+    margin-top:6rem;
+}
+.content-LienKet div a{
+    color:black;
+    font-weight: bold;
+}
+.content-LienKet div a:hover{
+    color:#CD2122;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.content-LienKet{
+    text-align:center;
+    position: relative;
+}
+.content-LienKet div{
+    padding-top:20px;
+}
+.icon-LienKet{
+    color:#CD2122 ;
+    font-size:2em;
+}
+/* Liên kết*/
+
+/* tiêu điểm*/
+.container-TD{
+    margin-bottom:3rem;
+}
+.content-tieude a{
+    color:black;
+    font-weight: bold;
+}
+.content-tieude a:hover{
+    color:#CD2122;
+    text-decoration:none;
+    transition: all 0.3s;
+}
+/* tiêu điểm*/

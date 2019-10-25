@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-size:16px;
+    font-family: "Roboto Slab", serif;
+}
+@media(max-width:768px){
+    .col-md-4,.col-md-3{
+        margin-top:2rem;
+    }
+}
+.btn-tinkhac{
+    float:right;
+}
+.img-title img{
+    width:170px;
+    height:auto;
+}
+.content-chuthich{
+    padding-top:20px;
+}
+.title-QTH{
+    text-align:center;
+}
+.title-QTH span{
+    color:#0067ac;
+    font-size:25px;
+    font-weight: bold;
+}
+.content-QuocTeHoa div a{
+    color:black;
+    font-weight:bold;
+}
+.content-QuocTeHoa div a:hover{
+    color:#CD2122;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.card-block div a{
+    color:#CD2122;
+    font-weight: bold;
+}
+.card-block div a:hover{
+    text-decoration: none;
+    color:green;
+    transition: all 0.3s;
+}
+/*css background-img*/
+.container-bg,.container-SVQT,.container-NLQT,.container-HTQT,.container-HDQTH,.container-CT{
+    margin-top:3rem;
+}
+.a-chitiet{
+    color:rgb(240, 37, 37);
+    font-size:18px;
+    font-weight:bold;
+}
+.a-chitiet:hover{
+    color:green;
+    font-weight:bold;
+    text-decoration: none;
+}
+.carousel-caption{
+    position: absolute;
+    width:35%;
+    top:20%;
+    margin-left:18%;
+}
+.title-background{
+    margin-bottom:2rem;
+    background-color:rgba(56, 53, 53,0.7);
+    height:50px;
+    line-height:50px;
+    font-weight:bold;
+    font-size: 20px;
+}
+@media(max-width:991px){
+    .title-background p{
+        background-color:rgba(56, 53, 53,0.7);
+        font-size:13px;
+    }
+}
+@media(max-width:768px){
+    .title-background p{
+        background-color:rgba(56, 53, 53,0.7);
+        font-size:10px;
+    }
+}
+@media(max-width:502px){
+    .title-background p{
+        background-color:rgba(56, 53, 53,0.7);
+        font-size:8px;
+    }
+}
+/*css background-img*/

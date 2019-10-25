@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+}
+/*css footer*/
+footer{
+    margin-top:3rem;
+}
+footer {
+    background-color: #333;
+    padding-top: 3rem;
+}
+
+.title-ft {
+    color: white;
+    font-weight: bold;
+}
+
+.DVTT ul li {
+    list-style-type: none;
+}
+
+.DVTT ul li a {
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.DVTT ul li a:hover {
+    color: rgb(247, 54, 54);
+    transition: 0.3s;
+}
+
+.diachi {
+    color: #bbbbbb;
+}
+
+.diachi a img {
+    width: 1.5rem;
+}
+
+.the-end {
+    background-color: #252429;
+    height: 3rem;
+}
+
+.the-end div p {
+    color: #bbbbbb;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.copyright {
+    background-color: #1F1E23;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+/*css footer*/
